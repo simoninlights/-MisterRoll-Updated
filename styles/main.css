@@ -197,14 +197,22 @@ body {
 
 .control {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 50%;
     width: 40px;
     height: 40px;
     background: #424242;
+    opacity: .7;
     border-radius: 8px;
     color: #fff;
     margin-top: -20px;
     z-index: 2;
+}
+
+.control:hover {
+    opacity: 1;
 }
 
 .prev {
@@ -247,6 +255,7 @@ body {
 .header-navbar__list-item:hover {
     color: #E15501;
 }
+
 .header-navbar__list-item__active {
     color: #E15501;
 }
@@ -699,6 +708,205 @@ body {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-.main-devivery-info__container .bold_span {
+/* Contact Page */
 
+.main-contact-info__container {
+    display: flex;
+    column-gap: 60px;
+    margin-bottom: 28px;
 }
+
+.contact-map {
+    width: 1060px;
+    height: 510px;
+    margin-bottom: 32px;
+}
+
+
+.main-contact-input__container {}
+
+.main-contact-input__container h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 24px;
+}
+
+.main-contact-input {
+    width: 742px;
+    height: 410px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 12px;
+    margin-bottom: 150px;
+    padding: 24px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.main-contact-input-upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.main-contact-input-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #212121;
+    margin-bottom: 12px;
+}
+
+.main-contact-input-name {
+    width: 380px;
+    height: 48px;
+    background: rgba(217, 217, 217, 0.38);
+    border-radius: 12px;
+    padding-left: 16px;
+}
+
+.main-contact-input-email {
+    width: 290px;
+    height: 48px;
+    background: rgba(217, 217, 217, 0.38);
+    border-radius: 12px;
+    padding-left: 16px;
+}
+
+.main-contact-comment {
+    width: 700px;
+    height: 155px;
+    background: rgba(217, 217, 217, 0.38);
+    border-radius: 12px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+}
+
+.main-contact-input-submit {
+    padding: 10px 24px;
+    width: 188px;
+    height: 39px;
+    background-color: #E15501 !important;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* CART PAGE */
+
+.main-cart-page__container {}
+
+.__container {}
+
+.main-cart-page-items__container {}
+
+.main-cart-page-items-upper {
+    display: flex;
+    column-gap: 430px;
+    margin-bottom: 24px;
+}
+
+.main-cart-page__items {
+    min-height: 150px;
+    width: 740px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+.main-cart-page__item {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+
+.main-cart-page__item img {
+    margin-right: 31px;
+}
+
+.main-cart-page__item-add-remove {
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+}
+
+.main-cart-page__item h2 {
+    margin-right: 80px;
+}
+
+.main-cart-page__item h3 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    color: #212121
+}
+.main-cart-page__item h4 {
+max-width: 51px;
+}
+
+.main-cart-page-button {
+    width: 40px;
+    height: 40px;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #E15501;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.item-remove {}
+
+.item-number {}
+
+.item-add {}
+
+.item-total-price {}
+
+.item-delete {}
+
+.main-cart-page-customer__conatiner {}
+
+.main-cart-page-customer__card {}
+
+.main-cart-page-customer__card-upper {}
+
+.main-cart-page-customer__card-upper-name {}
+
+.main-cart-page-customer__card-upper-phone {}
+
+.main-cart-page-customer__card-buttons {}
+
+.main-cart-page-customer__card-address {}
+
+.main-cart-page-customer__card-address-street {}
+
+.main-cart-page-customer__card-address-entrance {}
+
+.main-cart-page-customer__card-address-floor {}
+
+.main-cart-page-customer__card-address-apartment {}
+
+.main-cart-page-payment__conatiner {}
+
+.main-cart-page-payment__card {}
+
+.main-cart-page-payment__card-buttons {}
+
+.main-cart-page-payment__card-sumbit {}
+
+.main-cart-page-personal-data {}

@@ -1,9 +1,15 @@
 /* Preloader */
-document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-        document.querySelector("body").classList.add("loaded");
-    }, 1000)
-  });
+document.addEventListener("DOMContentLoaded", function () {
+    if (sessionStorage.getItem('dontLoad') === null) {
+        setTimeout(function () {
+            document.querySelector("body").classList.add("loaded");
+        }, 1000);
+    } if (sessionStorage.getItem('dontLoad') === true) {
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector("body").classList.remove("loaded");
+        });
+    }
+});
 
 
 /* -------Slider------- */
@@ -28,7 +34,7 @@ closeModal.addEventListener('click', () => {
 
 
 document.addEventListener('click', (e) => {
-    if(e.target === modalBg) {
+    if (e.target === modalBg) {
         modalBg.classList.remove('pop-container-active');
     }
 });
