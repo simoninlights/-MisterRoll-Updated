@@ -15,11 +15,12 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic"
         rel="stylesheet" />
-    <title>misterroll.ru</title>
-</head>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    </head>
 
 <body>
-    <div id="loader-wrapper">
+    <!-- <div id="loader-wrapper">
         <svg id="loader" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1152 1121"
             style="enable-background:new 0 0 1352 1321;" xml:space="preserve">
@@ -78,7 +79,7 @@
         </svg>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
-    </div> 
+    </div>  -->
 
     <div class="wrapper">
 
@@ -150,29 +151,27 @@
 
 
             <div id="slider" class="header-slider__container __container">
-                <div class="header-slider__wrapper wrapper">
-                    <div id="slides" class="header-slider-items__container">
-                        <div class="header-slider-item header-slider-item_4"><img src="img/slider/img_4.jpg" alt="">
+                <div class="swiper-container header-slider__wrapper">
+                    <div id="slides" class="swiper-wrapper header-slider-items__container">
+                        
+                        <div class="swiper-slide header-slider-item header-slider-item_1"><img src="img/slider/img_1.jpg" alt="">
                         </div>
-                        <div class="header-slider-item header-slider-item_1"><img src="img/slider/img_1.jpg" alt="">
+                        <div class="swiper-slide header-slider-item header-slider-item_2"><img src="img/slider/img_2.jpg" alt="">
                         </div>
-                        <div class="header-slider-item header-slider-item_2"><img src="img/slider/img_2.jpg" alt="">
+                        <div class="swiper-slide header-slider-item header-slider-item_3"><img src="img/slider/img_3.jpg" alt="">
                         </div>
-                        <div class="header-slider-item header-slider-item_3"><img src="img/slider/img_3.jpg" alt="">
+                        <div class="swiper-slide header-slider-item header-slider-item_4"><img src="img/slider/img_4.jpg" alt="">
                         </div>
-                        <div class="header-slider-item header-slider-item_4"><img src="img/slider/img_4.jpg" alt="">
-                        </div>
-                        <div class="header-slider-item header-slider-item_1"><img src="img/slider/img_1.jpg" alt="">
-                        </div>
+                        
                     </div>
                     <div class="header-slider-buttons_container">
-                        <button id="prev" class="control prev"><svg width="24" height="24" viewBox="0 0 24 24"
+                        <button id="prev" class=" control prev"><svg width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15 7L10 12L15 17" stroke="white" stroke-width="1.5" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
                         </button>
-                        <button id="next" class="control next"><svg width="24" height="24" viewBox="0 0 24 24"
+                        <button id="next" class=" control next"><svg width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10 7L15 12L10 17" stroke="white" stroke-width="1.5" stroke-linecap="round"
                                     stroke-linejoin="round" />

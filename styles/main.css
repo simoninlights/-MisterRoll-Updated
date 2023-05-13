@@ -182,11 +182,27 @@ body {
 }
 
 .header-slider-items__container {
-    width: 7200px;
     display: flex;
     position: relative;
-    top: 0;
-    left: -1200px;
+    width: 100%;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.header-slider-item {
+    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden; /* add overflow property */
+}
+
+.header-slider-item .clone {
+    transition: opacity 0.1s ease-in-out;
 }
 
 .header-slider-buttons_container {}
