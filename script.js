@@ -163,7 +163,7 @@ const refreshBtnVisibility = () => {
   }
 };
 refreshBtnVisibility();
-// window.scrollTo(0, 0);
+// window.scrollTo(0, 1000);
 scrollBtn.addEventListener('click', () => {
   window.scrollTo({
     top: 0,
