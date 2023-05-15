@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-/* -------Slider------- */
+/* --------Slider-------- */
 
 const slider = document.querySelector('.header-slider__wrapper');
 const slides = document.querySelector('#slides');
