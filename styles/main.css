@@ -230,7 +230,7 @@ body {
     border-radius: 8px;
     color: #fff;
     margin-top: -20px;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .control:hover {
@@ -700,95 +700,7 @@ body {
 }
 
 
-/* MOBILE LAYOUT */
 
-@media (max-width: 425px) {
-
-    .__container {
-        width: 100%;
-    }
-
-    /* header */
-
-    .top-header__container-wrapper {
-        display: none;
-    }
-
-    .header-navbar__container {
-        display: none;
-    }
-
-    .mobile-top-header__container-wrapper {
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-        background-color: #fff;
-        margin-bottom: 24px;
-    }
-
-    .mobile-top-header__container {
-        height: 80px;
-        max-width: 100%;
-        display: flex;
-        align-items: center;
-        font-family: 'Libre Franklin', sans-serif;
-        padding: 0 15px;
-    }
-
-    .mobile-top-header__container img {
-        width: 172px;
-        height: 40px;
-    }
-
-    .header-cart-button {
-        width: 44px;
-        height: 44px;
-        margin-right: 8px;
-    }
-
-    .header-cart-button svg {
-        position: relative;
-    }
-
-    .header-slider__container {
-        padding: 0;
-    }
-    .mobile-header-cart_item-number {
-        position: absolute;
-        top: 0;
-        right: 7px;
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        background-color: #E15501;
-        border: none;
-        border-radius: 50%;
-        color: #fff;
-        font-family: 'Libre Franklin', sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 19px;
-    }
-
-    .mobile-burger-menu-icon {
-        width: 44px;
-        height: 44px;
-        margin-right: -16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
-
-    /* main */
-    .main-menu__container {
-        justify-content: center;
-    }
-
-    .main-menu__card {
-       
-    }
-}
 
 
 
