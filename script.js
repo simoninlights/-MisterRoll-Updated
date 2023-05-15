@@ -16,7 +16,7 @@
 
 const slider = document.querySelector('.header-slider__wrapper');
 const slides = document.querySelector('#slides');
-const slideWidth = slider.clientWidth;
+let slideWidth = slider.clientWidth;
 let currentPosition = -slideWidth;
 
 // Clone first and last slide

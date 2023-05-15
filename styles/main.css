@@ -720,6 +720,7 @@ body {
 
     .mobile-top-header__container-wrapper {
         display: flex;
+        justify-content: center;
         max-width: 100%;
         background-color: #fff;
         margin-bottom: 24px;
@@ -772,6 +773,7 @@ body {
     .mobile-burger-menu-icon {
         width: 44px;
         height: 44px;
+        margin-right: -16px;
         display: flex;
         justify-content: center;
         align-items: center;
