@@ -1,15 +1,15 @@
 /* Preloader */
-document.addEventListener("DOMContentLoaded", function () {
-  if (sessionStorage.getItem('dontLoad') === null) {
-    setTimeout(function () {
-      document.querySelector("body").classList.add("loaded");
-    }, 1000);
-  } if (sessionStorage.getItem('dontLoad') === true) {
-    document.addEventListener("DOMContentLoaded", function () {
-      document.querySelector("body").classList.remove("loaded");
-    });
-  }
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   if (sessionStorage.getItem('dontLoad') === null) {
+//     setTimeout(function () {
+//       document.querySelector("body").classList.add("loaded");
+//     }, 1000);
+//   } if (sessionStorage.getItem('dontLoad') === true) {
+//     document.addEventListener("DOMContentLoaded", function () {
+//       document.querySelector("body").classList.remove("loaded");
+//     });
+//   }
+// });
 
 
 /* --------Slider-------- */
@@ -163,7 +163,7 @@ const refreshBtnVisibility = () => {
   }
 };
 refreshBtnVisibility();
-window.scrollTo(0, 2000);
+// window.scrollTo(0, 0);
 scrollBtn.addEventListener('click', () => {
   window.scrollTo({
     top: 0,
