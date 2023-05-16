@@ -55,12 +55,17 @@ body {
     max-width: 100%;
 }
 
+.mobile-burger-menu__container {
+    display: none;
+}
+
 .mobile-top-header__container-wrapper {
     display: none;
 }
 
 .top-header__container-wrapper {
     background-color: #fff;
+    position: relative;
     /* margin-bottom: 24px; */
 
 }

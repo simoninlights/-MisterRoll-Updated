@@ -176,7 +176,33 @@ document.addEventListener('scroll', (e) => {
 });
 
 
-//---------------DYNAMIC YEAR IN THE FOOTER----------------
+//---------------DYNAMIC YEAR IN THE FOOTER----------------//
 
 const year = new Date();
 document.querySelector('.current-year').innerHTML = year.getFullYear();
+
+//---------------BURGER MENU----------------//
+const navSlide = () => {
+  const burger = document.querySelector('.mobile-burger-menu-icon');
+  const nav = document.querySelector('.mobile-burger-menu-items__container');
+  const navLinks = document.querySelectorAll('.mobile-burger-menu-items__container li');
+
+  burger.addEventListener('click', () => {
+    console.log('click');
+      nav.classList.toggle('.nav-active');
+
+      navLinks.forEach((link, index) => {
+          if (link.style.animation) {
+              link.style.animation = '';
+          } else {
+              link.style.animation = `navLinkfade 1.2s ease forwards ${index / 7 + 0}s`;
+          }
+          
+      });
+  });
+
+  
+  
+};
+
+navSlide();
