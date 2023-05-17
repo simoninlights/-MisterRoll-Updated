@@ -39,7 +39,7 @@
         right: 0;
         z-index: 1;
         background-color: #fff;
-        display: none;
+        display: flex;
         flex-direction: column;
         min-height: 100%;
         width: 100vw;
