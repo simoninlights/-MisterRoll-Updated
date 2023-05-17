@@ -30,7 +30,7 @@
     }
 
     .wrapper {
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .mobile-burger-menu__container {
