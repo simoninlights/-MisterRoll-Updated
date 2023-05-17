@@ -45,6 +45,7 @@
         width: 100vw;
         padding: 0 28px 0 28px;
     }
+
     .mobile-burger-menu__container-active {
         display: flex;
     }
@@ -76,6 +77,7 @@
         flex-direction: column;
 
     }
+
     .nav-active {
         transform: translateX(0%);
     }
@@ -117,8 +119,8 @@
 
     .mobile-top-header__container-wrapper {
         display: flex;
-
         justify-content: center;
+        -webkit-justify-content: center;
         max-width: 100%;
         background-color: #fff;
         margin-bottom: 24px;
@@ -129,6 +131,7 @@
         max-width: 100%;
         display: flex;
         align-items: center;
+        -webkit-align-items: center;
         font-family: 'Libre Franklin', sans-serif;
         padding: 0 15px;
     }
