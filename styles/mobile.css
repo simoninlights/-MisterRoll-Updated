@@ -46,11 +46,12 @@
         padding: 0 28px 0 28px;
         overflow: auto;
         transition: right 0.7s ease-in-out;
-      
+
     }
+
     .mobile-burger-menu__container._active {
-       right: 0;
-       
+        right: 0;
+
     }
 
     .mobile-burger-menu__container-active {
@@ -138,7 +139,7 @@
         font-family: 'Libre Franklin', sans-serif;
         padding: 0 15px;
     }
-   
+
 
     .mobile-top-header__container img {
         width: 172px;
@@ -208,4 +209,80 @@
     .pop img {
         border-radius: 0;
     }
+
+
+    /* Contact Page */
+
+    .main-contact__container {}
+
+    .__container {}
+
+    .main-contact-info__container {}
+
+    .footer-contact-info__container {}
+
+    .__title {}
+
+    .footer__subtitle {}
+
+    .header-phone_container {}
+
+    .footer-schedule-info__container {}
+
+    .footer-social-info__container {}
+
+    .footer-social-info_svg__container {}
+
+    .footer-vkontakte__icon {}
+
+    .footer-instagram__icon {}
+
+    .contact-map {
+        width: 359px;
+        height: 359px;
+    }
+
+    .main-contact-input__container {}
+
+    .main-contact-input {
+        display: flex;
+        flex-direction: column;
+        width: 359px;
+        height: 458px;
+        padding: 16px 16px 24px 16px;
+    }
+
+    .main-contact-input-upper {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .main-contact-input-upper-name {
+        
+    }
+
+    .main-contact-input-title {}
+
+    .main-contact-input-name {
+        width: 327px;
+    }
+
+    .main-contact-input-upper-email {
+        width: 327px;
+    }
+
+    .main-contact-input-email {
+        width: 327px;
+    }
+
+    .main-contact-comment {
+        width: 327px;
+height: 111px;
+    }
+
+    .main-contact-input-submit {
+        width: 327px;
+    }
+
 }

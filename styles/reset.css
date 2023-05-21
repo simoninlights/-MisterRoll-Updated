@@ -19,7 +19,7 @@
 
 a:focus,
 a:active {
-	/* outline: none;*/
+	outline: none;
 }
 
 /* Links */
@@ -27,7 +27,7 @@ a:active {
 a, a:link, a:visited  {
     color: inherit;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 a:hover  {
