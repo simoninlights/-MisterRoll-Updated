@@ -125,11 +125,11 @@ body {
 }
 
 .pop-up-cart__container {
+    display: none;
     position: absolute;
     top: 63px;
     right: 0;
-    z-index: 2;
-    display: flex;
+    z-index: 2;    
     flex-direction: column;
     width: 480px;
     min-height: 100%;
@@ -141,7 +141,6 @@ body {
 
 .pop-up-cart-items__container {
     margin-bottom: 32px;
-
 }
 
 .pop-up-cart-item {
@@ -149,14 +148,35 @@ body {
     height: 40px;
     display: flex;
     align-items: center;
+
+}
+
+.pop-up-cart-item-delete_button {
+    cursor: pointer;
+}
+
+.pop-up-cart-item:not(:first-child) {
+    padding-top: 8px;
+    margin-bottom: 8px;
+    border-top: 1px solid #D9D9D9;
+}
+
+.pop-up-cart-item:not(:last-of-type) {
+    padding-top: 8px;
+    margin-bottom: 8px;
 }
 
 .pop-up-cart-item-title {
     max-width: 142px;
+    height: 22px;
     margin-right: 42px;
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 22px;
+    /* Three parameters bellow allow to hide and show three dots in the end of overflowing text */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .pop-up-cart-item-add-remove {
@@ -234,7 +254,7 @@ body {
     justify-content: center;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;    
+    line-height: 19px;
     color: #FFFFFF !important;
     width: 188px;
     height: 39px;
@@ -277,7 +297,7 @@ body {
     color: #fff;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 75%;
     line-height: 19px;
 }
 
