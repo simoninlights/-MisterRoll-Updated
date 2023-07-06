@@ -547,7 +547,8 @@ body {
 .footer__container {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 60px;
+    column-gap: 50px;
+    row-gap: 40px;
 }
 
 .footer-contact-info__container {
